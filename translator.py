@@ -19,7 +19,7 @@ language_translator = LanguageTranslatorV3(
 language_translator.set_service_url(url)
 
 def english_to_french(english_text):
-    #Receives a text in English and returns its French translation.
+    #Receives text in English and returns its French translation.
 
     french_translation = language_translator.translate(
         text=english_text,
@@ -27,6 +27,16 @@ def english_to_french(english_text):
     ).get_result()
     french_text = french_translation.get("translations")[0].get("translation")
     return french_text
+
+def english_to_german(english_text):
+    #Receives text in English and returns its German translation.
+
+    german_translation = language_translator.translate(
+        text=english_text,
+        model_id='en-de'
+    ).get_result()
+    german_text = german_translation.get("translations")[0].get("translation")
+    return german_text
 
 def french_to_english(french_text):
     #Receives a text in French and returns its English translation.
