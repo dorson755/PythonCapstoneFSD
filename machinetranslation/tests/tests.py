@@ -1,4 +1,7 @@
 import unittest
+import sys
+sys.path.append("machinetranslation")
+import translator
 from translator import french_to_english, english_to_french
 
 
