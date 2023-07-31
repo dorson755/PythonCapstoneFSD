@@ -1,5 +1,4 @@
 import os
-from dotenv import load_dotenv
 from deep_translator import GoogleTranslator
 
 def english_to_french(text):
