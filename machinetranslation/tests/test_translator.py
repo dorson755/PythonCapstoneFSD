@@ -1,7 +1,7 @@
+import unittest
 import sys
 import translator
 from translator import english_to_german, english_to_french
-import unittest
 sys.path.append("machinetranslation")
 
 
