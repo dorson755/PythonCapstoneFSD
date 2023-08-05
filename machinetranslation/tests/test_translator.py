@@ -7,9 +7,9 @@ Date: August 2023
 """
 
 import unittest
-import sys
-from translator import english_to_german, english_to_french
-sys.path.append("machinetranslation")
+#import sys
+from machinetranslation.translator import english_to_german, english_to_french
+#sys.path.append("machinetranslation")
 
 
 class TestTranslator(unittest.TestCase):
