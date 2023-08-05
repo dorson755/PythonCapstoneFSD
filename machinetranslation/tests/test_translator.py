@@ -8,7 +8,7 @@ Date: August 2023
 
 import unittest
 #import sys
-from machinetranslation.translator import english_to_german, english_to_french
+from translator import english_to_german, english_to_french
 #sys.path.append("machinetranslation")
 
 
